@@ -1,0 +1,212 @@
+.container{
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.main{
+  width: 990px;
+  min-height: 100ch;
+  background-color: #ffffff;
+  margin:0 auto;
+  padding: 40px;
+}
+.musicList{
+  width: 54px;
+  height: 24px;
+  margin-top: 5px;
+  background: url("../../assets/Icon/icon.png");
+  background-position: 0 -243px;
+}
+.musicListTit{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin:0 auto;
+  border-bottom: 2px solid #c20c0c;
+}
+
+
+/*模态框*/
+/*地球*/
+.bg{
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+}
+.earthIcon {
+  width: 23px;
+  height: 23px;
+  background-position: -20px -735px;
+}
+
+/*钢琴*/
+.piano {
+  width: 24px;
+  height: 24px;
+  background-position: 0px -60px;
+}
+/*咖啡*/
+.coffee{
+  width: 24px;
+  height: 24px;
+  background-position: 0px -88px;
+}
+/*表情*/
+.face{
+  width: 24px;
+  height: 24px;
+  background-position: 0px -117px;
+}
+/*音乐*/
+.music{
+  width: 24px;
+  height: 24px;
+  background-position: 0px -141px;
+}
+
+/*模态框*/
+.box {
+  position: absolute;
+  background: #ffffff;
+  top: 160px;
+  left:110px;
+  z-index: 5;
+  width: 700px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 2px 10px 1px rgba(110, 110, 110, 0.72);
+}
+/*三角形*/
+.icon{
+  position: absolute;
+  top: -10px;
+  left: 132px;
+  display: inline-block;
+  width: 24px;
+  height: 11px;
+  background: url("../../assets/Icon/iconall (1).png") no-repeat;
+  background-position: -48px 0;
+  vertical-align: middle;
+}
+.flex {
+  display: flex;
+  /*align-items: center;*/
+  font-size: 12px;
+  color: #333333;
+}
+
+.li1 {
+  /**/
+  padding-top: 16px;
+}
+
+.li1 a {
+  display: inline-block;
+  width: 52px;
+  height: 14px;
+  padding: 0px 10px;
+  border-right: 1px solid #ddd;
+}
+
+.fontWeight {
+  font-weight: bold;
+}
+
+.marginLeft10 {
+  margin-left: 10px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 98px;
+  padding-top: 16px;
+  border-right: 1px solid #ddd;
+}
+.label div{
+  display: inline-block;
+  /*margin-top: 4px;*/
+
+}
+
+.labelRight{
+  flex: 0 0 30px;
+}
+
+
+/*单独一个歌曲模块*/
+.musicItemBox {
+  display: block;
+  width: 140px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*歌曲照片项目*/
+.musicItem {
+  position: relative;
+  margin-top: 20px;
+}
+/*听歌，播放模块*/
+.musicIcon {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.13);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(170, 169, 169);
+  font-weight: bold;
+  border: 1px solid rgba(146, 144, 144, 0.35);
+}
+/*播放*/
+.play {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+  width: 21px;
+  height: 21px;
+  float: right;
+  background: url("../../assets/Icon/iconall (1).png") no-repeat;
+  background-position: 0px 0px;
+}
+.play:hover{
+  background: url("../../assets/Icon/iconall (1).png") no-repeat;
+  background-position: 0px -86px;
+}
+.listen {
+  float: left;
+  width: 14px;
+  height: 11px;
+  background: url("../../assets/Icon/iconall (1).png") no-repeat;
+  background-position: 0 -24px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.playNum {
+  float: left;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.flexAround {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/Icon/coverall.png") no-repeat;
+  background-position: 0 0;
+}

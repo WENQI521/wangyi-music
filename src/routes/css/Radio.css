@@ -1,0 +1,291 @@
+.container{
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.main{
+  width: 990px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  margin:0 auto;
+  padding: 40px;
+  border:1px solid red;
+}
+
+/*头部图标*/
+.icon{
+  width: 48px;
+  height: 48px;
+  margin: 2px auto 0;
+  background-position: 0 0;
+}
+.icon1{
+  background: url("../../assets/Icon/radio1") no-repeat;
+}
+.icon2{
+  background: url("../../assets/Icon/radio2") no-repeat;
+}
+.icon3{
+  background: url("../../assets/Icon/radio3") no-repeat;
+}
+.icon4{
+  background: url("../../assets/Icon/radio4") no-repeat;
+}
+.icon5{
+  background: url("../../assets/Icon/radio5") no-repeat;
+}
+.icon6{
+  background: url("../../assets/Icon/radio6") no-repeat;
+}
+.icon7{
+  background: url("../../assets/Icon/radio7") no-repeat;
+}
+.icon8{
+  background: url("../../assets/Icon/radio8") no-repeat;
+}
+.icon9{
+  background: url("../../assets/Icon/radio9") no-repeat;
+}
+.icon10{
+  background: url("../../assets/Icon/radio10") no-repeat;
+}
+.icon11{
+  background: url("../../assets/Icon/radio11") no-repeat;
+}
+.icon12{
+  background: url("../../assets/Icon/radio12") no-repeat;
+}
+.icon13{
+  background: url("../../assets/Icon/radio13") no-repeat;
+}
+.icon14{
+  background: url("../../assets/Icon/radio14") no-repeat;
+}
+.icon15{
+  background: url("../../assets/Icon/radio15") no-repeat;
+}
+.icon16{
+  background: url("../../assets/Icon/radio16") no-repeat;
+}
+.icon17{
+  background: url("../../assets/Icon/radio17") no-repeat;
+}
+.icon18{
+  background: url("../../assets/Icon/radio18") no-repeat;
+}
+.icon19{
+  background: url("../../assets/Icon/radio19.png") no-repeat;
+}
+.icon20{
+  background: url("../../assets/Icon/radio20.png") no-repeat;
+}
+/*头部*/
+
+.ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 908px;
+  height: 194px;
+  padding: 0;
+}
+.ul li{
+  list-style: none;
+  text-align: center;
+  height: 94px;
+  width: 93px;
+
+}
+.ul li a{
+  color:#888888;
+  text-decoration: none;
+}
+.ul_div{
+  position: relative;
+  display: block;
+  margin-bottom: 7px;
+  width: 100px;
+  height: 100px;
+  box-shadow:0px 3px 6px 1px #666666;
+}
+
+.bg_music{
+  position: absolute;
+  top: 0;
+  left:0;
+  background: url("../../assets/Icon/coverall.png") no-repeat;
+  background-position: 0 -570px;
+  width: 118px;
+  height: 100px;
+}
+
+/*左右箭头*/
+.leftIcon{
+  position: absolute;
+  left: -10px;
+  bottom: 46%;
+}
+.RightIcon{
+  position: absolute;
+  right: -10px;
+  bottom: 46%;
+}
+
+
+/*推荐开始*/
+.flex{
+  display: flex;
+  align-items: center;
+}
+.tit{
+  width:426px;
+  height: 40px;
+  border-bottom: 2px solid #c20c0c;
+  color:#333333;
+}
+
+.h3{
+  font-size: 22px;
+  font-weight: 400;
+}
+.font1{
+  color:#666666;
+  font-size: 12px;
+}
+
+/**/
+.itemUl{
+  width:426px;
+  border: 1px solid rgba(203, 203, 203, 0.48);;
+  border-top: none;
+}
+.itemUl li:nth-child(even){
+  background: #f7f7f7;
+}
+.itemUl li:hover{
+  background: #eeeeee;
+}
+.item{
+  position: relative;
+  width: 424px;
+  height: 50px;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.relative{
+  position: relative;
+}
+.play{
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 50%;
+  left: 60%;
+  overflow: hidden;
+  margin: -11px 0px 0px -11px;
+  background: url("../../assets/Icon/iconall (1).png") no-repeat;
+  background-position: 0px -85px;
+}
+
+.btn{
+  font-size: 8px;
+  color:#999999;
+  position: absolute;
+  right: 30px;
+  top:43%;
+  height: 20px;
+  padding: 0px 6px;
+  border: 1px solid rgb(153, 153, 153);
+  line-height: 16px;
+  color: rgb(153, 153, 153);
+  vertical-align: middle;
+  background: #ffffff;
+}
+.btn:hover{
+  color: rgb(135, 135, 135)
+}
+.marginLeft10{
+  margin-left: 10px;
+}
+.itemH3{
+  font-size: 12px;
+  color:#333333;
+  margin: 0;
+}
+.fontSize18{
+  font-size: 18px;
+}
+.itemP{
+  color:#999999;
+  margin:0;
+}
+
+.marginTop30{
+  margin-top: 30px;
+}
+.marginLeft20{
+  margin-left: 20px;
+}
+.itemUl2{
+  width:426px;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.48);
+}
+
+.item2{
+  position: relative;
+  width: 424px;
+  font-size: 12px;
+  height: 160px;
+  padding: 20px 0px;
+}
+.itemH32{
+  font-size: 18px;
+  color:#333333;
+}
+
+/*进度条*/
+.progress{
+  width:120px;
+  position: absolute;
+  right: 30px;
+  top:43%;
+}
+
+.num{
+  color: #DA4545;
+  text-align: center;
+  font-size: 14px;
+}
+.num2{
+  color:#999999;
+  text-align: center;
+  font-size: 14px;
+}
+.newIcon{
+  width: 16px;
+  height: 17px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: -67px -283px;
+}
+.upIcon{
+  display: inline-block;
+  overflow: hidden;
+  color: #bb2128;
+  font-size: 8px;
+  vertical-align: middle;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: -74px -299px;
+}
+.downIcon{
+  display: inline-block;
+  overflow: hidden;
+  font-size: 8px;
+  color: #bb2128;
+  vertical-align: middle;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: -74px -318px;
+}

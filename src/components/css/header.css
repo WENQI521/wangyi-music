@@ -1,0 +1,145 @@
+.container{
+/*style={{position: "fixed", width: "100%", zIndex: 100}}*/
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.headerBox{
+/*style={{backgroundColor: "#242424", height: "69px", lineHeight: "69px", color: "white", textAlign: "center"}}*/
+  background-color: #242424;
+  height: 69px;
+  line-height: 69px;
+  color:white;
+  text-align: center;
+}
+.navLi{
+  width:16.7%;
+  height: 69px;
+  line-height: 69px;
+  margin: 0;
+  padding: 0;
+}
+.navLi:hover{
+  background-color: black;
+  width:16.7%;
+  height: 69px;
+  line-height: 69px;
+  margin: 0;
+  padding: 0;
+}
+.liItem{
+  /*width: "16.7%", height: "69px", position: "relative",margin:0*/
+  width:16.7%;
+  height: 69px;
+  position:relative;
+  line-height: 69px;
+  margin: 0;
+}
+.wyIcon{
+  width: 190px;
+  height: 69px;
+  display: inline-block;
+  background: url("../../assets/Icon/topbar.png") no-repeat;
+  background-position: 0 0;
+}
+.active{
+  position:absolute;
+  z-index: 10;
+  bottom: 0;
+  left:39%;
+  width: 0;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid #C20C0C;
+  border-top: 8px solid transparent;
+}
+.normal{
+  position:absolute;
+  bottom: 0;
+  left:39%;
+  z-index: 10;
+  width: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7{
+  background: url("../../assets/Icon/toplist.png") no-repeat;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  color:#fff;
+  margin-left: 18px;
+}
+.icon1{
+  background-position:0 -78px;
+}
+.icon2{
+  background-position:-20px -118px;
+}
+.icon3{
+  background-position:0px -100px;
+}
+.icon4{
+  background-position:0px -218px;
+}
+
+.icon5{
+  background-position:0px -138px;
+}
+.icon6{
+  background-position:-20px -142px;
+}
+.icon7{
+  background-position:0 -199px;
+}
+
+/*登录*/
+.icon{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+  width: 38px;
+  height: 38px;
+  background: url("../../assets/Icon/netIcon.png") no-repeat;
+}
+.wx{
+  background-position: -150px -670px;
+}
+.qq{
+  background-position: -190px -670px;
+}
+.wb{
+  background-position: -231px -670px;
+}
+.wy{
+  background-position: -271px -670px;
+}
+.phoneLogin{
+/*style={{backgroundColor:"#3988d3",color:"white",fontSize:12,width:210,marginTop:10,borderRadius:5}}*/
+  background: #3988d3;
+  color:white;
+  width: 210px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.reg{
+/*style={{backgroundColor:"#f7f7f7",fontSize:12,width:210,marginTop:10,borderRadius:5}}*/
+  background: #f7f7f7;
+  font-size: 12px;
+  width: 210px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.login2Right{
+  /*marginLeft:30,color:"#666666",fontSize:12*/
+  margin-left: 30px;
+  color:#666666;
+  font-size: 12px;
+}
+.login2Right > div{
+  margin-top: 10px;
+}

@@ -1,0 +1,121 @@
+.container{
+  backgroundColor: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  width: 890px;
+  margin: 0 auto;
+}
+/*圆圈图标*/
+.circle {
+  height: 33px;
+  padding: 0 10px 0 34px;
+  background: url("../../assets/Icon/iconAll.png") 0 9999px no-repeat;
+  background-position: -225px -156px;
+  border-bottom: 2px solid #C10D0C;
+  width: 590px;
+  margin:0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.titRightIcon1{
+  width: 71px;
+  height: 24px;
+  cousor:pointer;
+  background: url("../../assets/Icon/frd_dyn_sprite.png") no-repeat;
+  background-position: 0px -452px;
+}
+.titRightIcon2{
+  width: 84px;
+  height: 24px;
+  cousor:pointer;
+  background: url("../../assets/Icon/frd_dyn_sprite.png") no-repeat;
+  background-position: -100px -452px;
+}
+.boxLeft {
+  width: 680px;
+  border:1px solid #ccc;
+  border-bottom: none;
+  background-color: #ffffff;
+}
+
+/*红色*/
+.netIcon{
+  width: 15px;
+  height: 15px;
+  background: url("../../assets/Icon/frd_dyn_sprite.png") no-repeat;
+  background-position: -60px -360px;
+}
+.musicListIcon{
+  width:60px;
+  height: 25px;
+  background: url("../../assets/Icon/frd_dyn_sprite.png") no-repeat;
+  background-position: -110px 0;
+}
+
+.pictureBox{
+  margin-top: 20px;
+  width:340px;
+  height: 340px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*//明星用户*/
+.comment{
+  width:590px;
+  margin:0 auto;
+  border-bottom: 1px solid #999999;
+}
+.addBtn{
+  width: 52px;
+  height: 22px;
+  position:absolute;
+  top:30%;
+  right:15px;
+  color:#515151;
+  font-size: 12px;
+  line-height: 22px;
+  background: url("../../assets/Icon/button.png") no-repeat;
+  background-position: 0 -96px;
+}
+/*删除*/
+.deleteIcon{
+  position:absolute;
+  top:43%;
+  right:0;
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: 3px -636px;
+}
+
+.deleteIcon:hover{
+  position:absolute;
+  top:43%;
+  right:0;
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: -12px -636px;
+}
+.selectBox{
+  width:60px;
+  position:absolute;
+  top:30%;
+  right:10px;
+  overflow: hidden;
+}
+.selectIcon{
+  width: 13px;
+  height: 15px;
+  line-height: 15px;
+  display: inline-block;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: -60px -470px;
+}
+
+
+

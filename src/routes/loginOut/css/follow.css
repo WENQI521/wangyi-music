@@ -1,0 +1,27 @@
+.bg{
+  width: 827px;
+  height: 490px;
+  margin: 0 auto 0;
+  padding-top: 104px;
+  background: url("../../../assets/Icon/notlogin.jpeg") no-repeat;
+  background-position: 0 104px;
+  position: relative;
+}
+/*按钮*/
+.btnDiv{
+  position:absolute;
+  bottom: 77px;
+  right: 134px;
+  background:url("../../../assets/Icon/notlogin.jpeg") no-repeat;
+  background-position: 0 277px;
+  width: 160px;
+  height: 50px;
+}
+/*文字*/
+.textDiv{
+  position: absolute;
+  bottom: 165px;
+  right: 24px;
+  color:#666666;
+  font-size: 14px;
+}

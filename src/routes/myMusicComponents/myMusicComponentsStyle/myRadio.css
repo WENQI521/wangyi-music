@@ -1,0 +1,48 @@
+.flexAround {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 680px;
+}
+
+.radioItem{
+  display: block;
+  width: 140px;
+}
+/*照片模块*/
+.radioBox{
+  position: relative;
+  margin-top: 20px;
+}
+/**/
+.radioIcon{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 15px;
+  height: 10px;
+  float: right;
+  background: url("../../../assets/Icon/icon2.png") no-repeat;
+  background-position: -60px -310px;
+}
+/*头部图标*/
+.topIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(170, 169, 169);
+  font-weight: bold;
+}
+/*时长*/
+.radioTime{
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  width: 15px;
+  height: 10px;
+  color:#999999;
+}

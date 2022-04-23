@@ -1,0 +1,28 @@
+.myIcon{
+  width: 22px;
+  height: 21px;
+  display: inline-block;
+  background: url("../../../../assets/Icon/icon.png") no-repeat;
+  background-position: -64px -164px;
+}
+.newsIcon{
+  width: 22px;
+  height: 21px;
+  display: inline-block;
+  background: url("../../../../assets/Icon/icon.png") no-repeat;
+  background-position: -64px -193px;
+}
+.commentIcon{
+  width: 22px;
+  height: 21px;
+  display: inline-block;
+  background: url("../../../../assets/Icon/icon.png") no-repeat;
+  background-position: -64px -245px
+}
+.noticeIcon{
+  width: 22px;
+  height: 21px;
+  display: inline-block;
+  background: url("../../../../assets/Icon/icon.png") no-repeat;
+  background-position: -58px -400px;
+}

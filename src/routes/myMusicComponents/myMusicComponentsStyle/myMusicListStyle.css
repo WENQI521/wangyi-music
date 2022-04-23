@@ -1,0 +1,248 @@
+.titBox{
+  display: flex;
+  padding:40px;
+}
+.musicList{
+  width: 54px;
+  height: 24px;
+  margin-top: 5px;
+  background: url("../../../assets/Icon/icon.png");
+  background-position: 0 -243px;
+}
+.titFont{
+  font-size: 20px;
+  color:#333333;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.spaceBetween{
+  justify-content: space-between;
+}
+.flex a{
+  color:#0C73C2;
+}
+
+.icon1{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: 0 -800px;
+  width: 66px;
+  height: 36px;
+}
+.icon2{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: 0 -1583px;
+  width: 34px;
+  height: 36px;
+}
+.icon3{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: 0 -970px;
+  width: 50px;
+  height: 39px;
+  margin-left: 7px;
+}
+.icon4{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: right -1020px;
+  width: 5px;
+  margin-top: 14px;
+  height: 39px;
+}
+.icon5{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: 0 -1225px;
+  width: 50px;
+  margin-top: 14px;
+  height: 39px;
+  margin-left: 7px;
+}
+.icon6{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: 0 -2761px;
+  width: 50px;
+  margin-top: 14px;
+  height: 39px;
+  margin-left: 7px;
+}
+
+.icon7{
+  position: relative;
+  background: url("../../../assets/Icon/button2.png") no-repeat;
+  background-position: 0 -1465px;
+  width: 50px;
+  margin-top: 14px;
+  height: 39px;
+  margin-left: 7px;
+}
+
+/*歌单开始*/
+.musicListTit{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid #c20c0c;
+}
+.tableBox{
+  width: 100%;
+  font-size: 10px;
+  color:#333333;
+  text-indent: 10px;
+}
+.tableBox .tr1 td{
+border-right: 1px solid #d2d2d2;
+  height: 30px;
+  line-height: 30px;
+}
+.tr1{
+  border-bottom: 1px solid #d2d2d2;
+  padding: 8px 10px;
+  background-color: #f4f4f4f4;
+}
+.playIcon{
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: url("../../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -103px;
+  margin-top: 5px;
+}
+.playIcon:hover{
+  background-position: 0 -128px;
+}
+
+.tableBox tr{
+  height: 25px;
+  line-height: 15px;
+}
+.tableBox tr:nth-child(odd){
+  background: #f7f7f7;
+}
+.tableBox tr:nth-child(even){
+  background: #ffffff;
+}
+.tableBox tr:last-child{
+  border-bottom: 1px solid #999999;
+}
+/*编辑*/
+.editIcon{
+  width: 18px;
+  height: 18px;
+  background: url("../../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -259px;
+}
+/*列表的图标*/
+.addIcon{
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  background: url("../../../assets/Icon/icon.png") no-repeat;
+  background-position: 0 -700px;
+}
+.addIcon:hover{
+  background-position: -22px -700px;
+}
+.collectIcon{
+  width: 18px;
+  height: 16px;
+  background: url("../../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -174px;
+  position: absolute;
+  top: 30%;
+  left: 28px;
+}
+.collectIcon:hover{
+  background-position: -20px -174px;
+}
+.shareIcon{
+  background: url("../../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -195px;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 30%;
+  left: 48px;
+}
+.shareIcon:hover{
+  background-position: -20px -195px;
+}
+.downloadIcon{
+  background: url("../../../assets/Icon/table.png") no-repeat;
+  background-position: -81px -174px;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 30%;
+  left: 68px;
+}
+.downloadIcon:hover{
+  background-position: -104px -174px;
+}
+
+.deleteIcon{
+  background: url("../../../assets/Icon/table.png") no-repeat;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 30%;
+  left: 88px;
+  background-position: 0 -217px;
+}
+.deleteIcon:hover{
+  background-position: -20px -217px;
+}
+.conmentBox{
+  display: flex;
+  width:670px;
+  margin:0 auto;
+}
+.face{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../../../assets/Icon/icon.png") no-repeat;
+  background-position: -40px -490px
+}
+.mail{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  background: url("../../../assets/Icon/icon.png") no-repeat;
+  background-position: -60px -490px
+}
+
+/*如果列表为空，显示的内容*/
+.textAlign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin:0;
+}
+.emptyIcon{
+  width: 64px;
+  height: 50px;
+  background: url("../../../assets/Icon/icon.png") no-repeat;
+  background-position: 0 -347px;
+}
+.selectIcon{
+  width: 16px;
+  height: 14px;
+  background: url("../../../assets/Icon/icon.png") no-repeat;
+  background-position: 0 -400px;
+}

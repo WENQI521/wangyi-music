@@ -1,0 +1,75 @@
+.container {
+  background-color: #ffffff;
+  width: 890px;
+  margin: 0 auto;
+  margin-top: 70px;
+  font-size: 12px;
+  color: #999;
+  padding-top: 44px;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-height: 100vh;
+}
+
+.titBox {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #c20c10;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: 80px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.marginLeft10 {
+  margin-left: 10px;
+}
+
+/*上传框*/
+.uploadImgBox {
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+  width: 133px !important;
+  height: 133px !important;
+}
+
+/*提示框设置滚动条*/
+.textScroll {
+  color: #999999;
+  font-size: 12px;
+  width: 373px;
+  height: 133px;
+  margin-top: 27px;
+  border: 1px dotted #ddd;
+  overflow-y: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.textScroll p{margin: 0}
+
+/*p样式*/
+.pBox{
+    width:420px;
+    color:#333333;
+    font-size: 12px;
+}
+.borderBottom{
+/*style={{height:1,width:"100%",borderBottom:"1px solid #ddd",marginTop:30}}*/
+  border-bottom: 1px solid #ddd;
+  margin-top: 30px;
+}
+.greyBtn{
+  color:white;
+  background-color: #666666;
+}

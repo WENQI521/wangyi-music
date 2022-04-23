@@ -1,0 +1,178 @@
+.myCenterBox{
+  border:1px solid #999999;
+  borderTop:none;
+  background-color:#ffffff;
+  width:990px;
+  margin:0 auto;
+  border-bottom: none;
+  padding-bottom: 60px;
+}
+
+.lvIcon{
+  height: 19px;
+  overflow: hidden;
+  padding-left: 29px;
+  line-height: 21px;
+  color: #e03a24;
+  font-size: 14px;
+  font-weight: bold;
+  background: url("../../assets/Icon/icon2.png") no-repeat;
+  background-position: -135px -190px;
+}
+.lvIcon2{
+  background: url("../../assets/Icon/icon2.png") no-repeat;
+  width: 9px;
+  height: 19px;
+  background-position: -191px -190px;
+}
+.sexIcon{
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: -41px -27px;
+}
+.btn{
+  font-size: 12px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: #fdfdfd;
+  color:#333333;
+  border: 1px solid #6e6e6e;
+}
+
+/*新浪logo*/
+.logo{
+  width: 20px;
+  height: 20px;
+  display:inline-block;
+  background: url("../../assets/Icon/logo.png") no-repeat;
+  background-position: 0 -25px;
+}
+
+.icon{
+  width: 18px;
+  height: 18px;
+  position:absolute;
+  bottom: -2px;
+  left: 5px;
+  background: url("../../assets/Icon/icon2.png") no-repeat;
+  background-position: 0px -50px;
+}
+/*列表的图标*/
+.addIcon{
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  background: url("../../assets/Icon/icon.png") no-repeat;
+  background-position: 0 -700px;
+}
+.addIcon:hover{
+  background-position: -22px -700px;
+}
+.collectIcon{
+  width: 18px;
+  height: 16px;
+  background: url("../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -174px;
+  position: absolute;
+  top: 30%;
+  right: 28px;
+}
+.collectIcon:hover{
+  background-position: -20px -174px;
+}
+.shareIcon{
+  background: url("../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -195px;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 30%;
+  right: 48px;
+}
+.shareIcon:hover{
+  background-position: -20px -195px;
+}
+.downloadIcon{
+  background: url("../../assets/Icon/table.png") no-repeat;
+  background-position: -81px -174px;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 30%;
+  right: 68px;
+}
+.downloadIcon:hover{
+  background-position: -104px -174px;
+}
+
+.deleteIcon{
+  background: url("../../assets/Icon/table.png") no-repeat;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 30%;
+  right: 88px;
+  background-position: 0 -217px;
+}
+.deleteIcon:hover{
+  background-position: -20px -217px;
+}
+.tableBox{
+  width: 100%;
+  font-size: 10px;
+  color:#333333;
+  text-indent: 10px;
+  border:1px solid #ddd;
+}
+.tableBox tr{
+  display:block;
+  line-height: 30px;
+  height: 38px;
+}
+.tableBox tr:nth-child(odd){
+  background: #f7f7f7;
+}
+.tableBox tr:nth-child(even){
+  background: #ffffff;
+}
+
+.playIcon{
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: url("../../assets/Icon/table.png") no-repeat;
+  background-position: 0 -103px;
+  margin-top: 10px;
+}
+.playIcon:hover{
+  background-position: 0 -128px;
+}
+
+/*我创建的歌单*/
+.flexAround {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+/*单独一个歌曲模块*/
+.musicItemBox {
+  display: block;
+  width: 140px;
+  margin-left: 50px;
+}
+
+.musicItemBox:nth-of-type(1){
+  margin-left: 0;
+}
+.musicItemBox:nth-of-type(6){
+  margin-left: 0;
+}

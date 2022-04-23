@@ -1,0 +1,24 @@
+.bg{
+  width: 807px;
+  height: 368px;
+  margin: 0 auto 0;
+  padding-top: 104px;
+  background: url("../../../assets/Icon/mymusicBg.png") no-repeat;
+  background-position: 0 104px;
+  position: relative;
+}
+.btnDiv{
+  position:absolute;
+  bottom: 18px;
+  right: 158px;
+  background:url("../../../assets/Icon/mymusicBg.png") no-repeat;
+  background-position: 0 277px;
+  width: 167px;
+  height: 45px;
+}
+.btn{
+  width:167px;
+  height: 41px;
+  color:white;
+  background-color: transparent;
+}

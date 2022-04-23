@@ -1,0 +1,14 @@
+.li {
+ padding:2px 12px;
+  text-align: center;
+}
+
+.li:hover {
+  background: #9b0909;
+  border-radius: 12px;
+}
+
+.liClick {
+  background: #9b0909;
+  border-radius: 12px;
+}

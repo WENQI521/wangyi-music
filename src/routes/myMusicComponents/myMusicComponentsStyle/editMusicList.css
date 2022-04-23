@@ -1,0 +1,10 @@
+.titBox{
+  width: 670px;
+  margin:0 auto;
+}
+.borderBottom{
+  border-bottom: 1px solid rgba(102, 102, 102, 0.56);
+}
+.colorBlue{
+  color:#0C73C2;
+}

@@ -1,0 +1,52 @@
+.sendNews{
+  width: 89px;
+  height: 31px;
+  color: #333;
+  font-size: 12px;
+  display: inline-block;
+  background: url("../../../assets/Icon/button.png") no-repeat;
+  background-position: 0 -680px;
+  text-indent: 31px;
+  line-height: 30px;
+}
+/*音乐模块*/
+.musicItem{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border-bottom:1px dotted #ccc;
+}
+li{
+  position: relative;
+}
+.ul{
+  padding: 0;
+  width: 660px;
+  margin:0 auto;
+}
+.h1Font{
+  font-size: 24px;
+  color:#333333;
+}
+.titFont{
+  color:#333333;
+  font-size: 14px;
+}
+
+.timeIcon{
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  background: url("../../../assets/Icon/icon.png") no-repeat;
+  background-position: -18px -682px;
+}
+.deleteIcon{
+  width: 16px;
+  height: 14px;
+  position:absolute;
+  bottom: 30%;
+  right: 0px;
+  background: url("../../../assets/Icon/icon2.png") no-repeat;
+  background-position: -132px 0;
+}
